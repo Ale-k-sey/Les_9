@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/table.css">    
+</head>
+<body>
+    <header class="wrapper header__wrapper">
+        <div class="header__logo">
+            <a href="index.html" class="logo__link">
+                <img src="img/logo.svg" alt="logopicture" class="logo_image">
+            </a>
+        </div>
+        <nav class="header__navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="" class="navigation__link">Work</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="about.html" class="navigation__link">About</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="" class="navigation__link">Contact</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="flex.html" class="navigation__link">Flex-box</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="position.html" class="navigation__link">Position</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="catalog.html" class="navigation__link">Catalog</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="bootstrap-exsample.html" class="navigation__link">Bootstrap-exsample</a>
+                </li>
+            </ul>
+        </nav>
+    </header> 
+    <main class="main">
+        <div class="container">
+            <table class="table">
+                <caption class="table__caption">
+                    Таблица 1
+                </caption>
+                <tbody class="table__body">
+                    <tr>
+                        <th>one</th>
+                        <th>two</th>
+                        <th>three</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">12</td>
+                        <td>22</td>
+                        <td>33</td>
+                    </tr>
+                    <tr>
+                        <!-- <td>aber</td> -->
+                        <td colspan="2">lower</td>
+                        <!-- <td>robik</td> -->
+                    </tr>
+                    <tr>
+                        <td>a</td>
+                        <td rowspan="2">25</td>
+                        <td>-/-**</td>
+                    </tr>
+                    <tr>
+                        <td>??!!?</td>
+                        <td>a-*a</td>
+                        <!-- <td>12-22-5</td> -->
+                    </tr>
+                    <tr>
+                        <td>qz</td>
+                        <td>tb</td>
+                        <td>jh</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+       
+    </main>
+    
+</body>
+</html>
