@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
+/* @import url(/Les_8/css/table-tags.css); */
+
+:root{
+    --backgroundcolor-table-tags: black;
+    --textcolor-table-tags: white;
+    --color-table-tags__tag: #7b7e5a;
+    --color-table-tags__description: #745a0c;
+    --color-table-tags-1199__tag: rgb(180, 180, 41);
+    --color-table-tags-1199__description: rgb(37, 173, 53);
+    --color-table-tags-992__tag: rgb(38, 15, 187);
+    --color-table-tags-992__description: rgb(226, 138, 51);
+}
+
+
+body{
+    margin: 0;
+    padding-top: 65px;
+
+    background-color: black;
+    background-image: url(../img/background-img.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 5%;
+}
+
+.wrapper{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 170px;
+}
+
+.header__logo{
+    margin-right: 44px;
+}
+
+.navigation__list{
+    display: flex;
+
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navigation__item{
+    list-style: none;
+
+    margin-right: 44px;
+}
+
+.navigation__link{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+}
+
+.main__title{
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 89px;
+
+    color: #FFFFFF;
+}
+
+.main__subtitle{
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+
+    color: #FFFFFF;
+
+    margin-bottom: 13px;
+}
+
+.main__text{
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+
+    margin-bottom: 50px;
+}
+
+.main__button{
+    width: 205px;
+    padding: 22px 50px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.button__link{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    
+    color: #000000;
+
+    text-decoration: none;
+}
+
+/* ______________ */
+
+.container{
+    max-width: 1395px;
+    box-sizing: border-box;
+}
+
+.your-way{
+    margin-top: 143px;
+}

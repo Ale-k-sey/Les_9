@@ -1,0 +1,190 @@
+body{
+    background-image: none;
+    background-color: #fff;
+}
+
+.logo_image{
+    background-color: gray;
+}
+
+.navigation__link{
+    color: black;
+}
+
+
+
+.container{
+    max-width: 1395px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.your-way__container{
+    height: 562px; 
+}
+
+.your-way{
+    height: 562px;
+    padding-top: 143px;
+    /* padding-bottom: 220px; */
+
+    background-image: url(../img/about-bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 1141px 545px;
+    background-position: center;
+
+    
+}
+
+.your-way__title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;    
+
+    color: #000000;
+
+    width: 456px;
+    margin-top: 0;
+    margin-bottom: 27px;
+}
+
+.your-way__text{
+    font-family: 'Lato';
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #484848;
+
+    width: 630px;
+    margin-bottom: 38px;
+}
+
+.your-way__button{
+    display: inline-block;
+    padding: 20px 62px;
+
+    background: #C83267;
+    border: 1px solid #C83267;
+    border-radius: 4px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* _________________ */
+
+.about-us{
+    padding: 140px 0;
+}
+
+.about-us__content{
+    display: flex; 
+}
+
+.about-us__article{
+    margin-left: 30px;
+}
+
+
+.about-us__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+    margin-bottom: 48px;
+}
+
+.about-us__text{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 42px;
+
+
+color: #000000;
+}
+
+.how-it-works__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 157%;
+
+    color: #000000;
+}
+
+.how-it-works__content{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.how-it-works__items{
+    flex: 1;
+    max-width: 400px;
+}
+
+.html__item{
+    margin-top: 48px;
+}
+
+.css__item{
+    margin-top: 250px;
+}
+
+.js__item{
+    margin-top: 90px;
+}
+
+.item__title{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 90px;
+
+    text-align: center;
+
+    margin-bottom: 24px;   
+}
+
+.html__title{
+    color: rgba(255, 174, 0, 0.75);
+}
+
+.css__title{
+    color: rgba(7, 50, 255, 0.75);
+}
+
+.js__title{
+    color: rgba(255, 66, 61, 0.75);
+}
+
+.how-it-works__text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+
+    color: #424242;
+
+    margin-bottom: 48px;
+}

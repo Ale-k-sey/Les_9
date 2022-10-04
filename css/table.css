@@ -1,0 +1,45 @@
+body{
+    background-image: none;
+    background-color: gray;
+}
+
+.container{
+    max-width: 1395px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    background: greenyellow;
+    margin: 50px auto;
+}
+
+.table__caption{
+    font-size: 32px;
+}
+
+th{
+    font-size: 28px;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+td{
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+[rowspan="2"] {
+    background-color: blueviolet;
+    vertical-align: middle;
+}
+
+[colspan="2"] {
+    background-color: brown;
+}
