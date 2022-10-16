@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap-exsample.css">
 </head>
-<body>
-    <header class="wrapper header__wrapper">
+<body>  
+    <header class="wrapper header__wrapper" style="background-color: black;">
         <div class="header__logo">
             <a href="index.html" class="logo__link">
                 <img src="img/logo.svg" alt="logopicture" class="logo_image">
@@ -45,7 +45,11 @@
             </ul>
         </nav>
     </header> 
-    <div class="container">
+    <section>
+      <hr>
+      <h2 class="display-1">Lesson 9 Homework</h2>
+      <hr>
+      <div class="container">
         <div class="button">
             <h2>Buttons</h2>
             <br><br><br>
@@ -168,8 +172,13 @@
                       <span class="visually-hidden">Toggle Dropdown</span>
                     </button>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item small" href="#">Action</a></li>
                       <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item " href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Separated link</a></li>
@@ -177,10 +186,218 @@
                   </div>
             </div>
         </div>
+        <hr>
+        <div class="modal">
+          <h2>Modal</h2>
+          
+          
+        </div> 
+        <hr> 
+        <h2>Nav-tabs</h2> 
+        <div class="nav-tabs">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, tenetur nihil? Ipsum molestias harum quae quas molestiae nihil incidunt quod, aut sequi nam repudiandae amet. Error molestias earum esse ea?</div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos vero iste aliquid vel ducimus fugit reiciendis nesciunt corrupti. Magnam soluta quasi aperiam laudantium eligendi quisquam rem deleniti saepe id accusamus!</div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quo nulla odio consequatur sit expedita ab beatae veritatis, non eveniet eum unde, aperiam nisi quis, neque saepe impedit praesentium et.</div>
+          </div>
+          
+        </div>
+        <hr>
+        <h2>Navbar</h2>
+        <div class="navbar">
+          <div class="container ">
+            <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropup">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div>
+          
+        </div> 
+        <hr>
+        <h2>Spinner</h2>
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div> <br>
+        <div class="spinner-border text-primary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-secondary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-success" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-danger" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-warning" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-info" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-light" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-dark" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>  
+    </section>
+    <section class="les-10">
+      <hr>
+      <h2 class="display-1 ">Lesson 10 Homework</h2>
+      <hr>
+      <h3>Шаблон структуры  предложенной страницы</h3>
+      <div class="container-lg">
+        <div class="row gap-1">
+          <div class="row__header col-lg-12 d-flex justify-content-center bg-secondary rounded-2">
+            &lt;header&gt;
+          </div>
+          <div class="row__nav col-lg-12 d-flex justify-content-center bg-secondary rounded-2">
+            &lt;nav&gt;
+          </div>        
+            <div class="row__article col-lg-8 text-center bg-secondary pb-3 rounded-2">
+              &lt;article&gt;              
+                <div class="row__section col-lg-12 d-flex justify-content-center align-items-center bg-dark bg-gradient p-2 rounded-2">
+                  &lt;section&gt;
+                </div>              
+            </div>
+            <div class="row__aside col-lg-3 d-flex justify-content-center align-items-center bg-secondary rounded-2">
+              &lt;aside&gt;
+            </div>         
+            <div class="row__footer col-lg-12 d-flex justify-content-center bg-secondary rounded-2">
+              &lt;footer&gt;
+            </div>
+          
+        </div>
+      </div>
+    </section> 
+    <section class="accordion-sect">
+      <hr>
+      <h3>Akkordion</h3>
+      <div class="container">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item mb-4">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Як я можу зробити грошовий внесок для певного проекту?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloribus rerum repellendus, ad distinctio doloremque cupiditate saepe. Nihil, iure! Totam beatae veniam illum necessitatibus magni distinctio expedita quia in molestiae!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-4">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Які є гарантії того, що кошти підуть саме на ту справу, що указана в назві проекту?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Котивсь зеленими царинками, маленький і білий, наче банька кульбаби, безстрашно забирався у темний ліс, де гаджуги кивали над ним галузками, як ведмідь лабами. Звідси дивився на гори, близькі й далекі верхи, що голубіли на небі, на смерекові чорні ліси з їх синім диханням, на ясну зелень царинок, що, мов дзеркала, блищали в рамах дерев. Під ним, в долині, кипів холодний Черемош. По далеких горбах дрімали на сонці самотні оселі. Були так тихо і сумно, чорні смереки безперестанку спускали сум свій в Черемош, а він ніс його долом й оповідав. Вище, по безводних далеких недеях, нявки розводять свої безконечні танки, а по скелях ховається щезник.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-4">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Де я можу прочитати звіти щодо завершених проектів?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus animi neque explicabo cumque nam, atque incidunt tempore excepturi non dolores iure itaque repellendus. Architecto alias quae sequi similique nesciunt?
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-4">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Чим відрізняються акції та проекти фонду?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero accusantium blanditiis in repellat nulla quis suscipit labore perferendis provident omnis, voluptates eligendi quasi asperiores saepe inventore deserunt? Dolor, perferendis.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       
+    </section>
+    <section class="tab-section">
+      <!-- <hr> -->
+      <h3>Tab</h3>
+      <div class="container">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link fw-bold" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Як я можу зробити</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active fw-bold" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Які є гарантії </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link fw-bold" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Де я можу прочитати звіти щодо завершених проектів?</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active tab-pane-bc" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Котивсь зеленими царинками, маленький і білий, наче банька кульбаби, безстрашно забирався у темний ліс, де гаджуги кивали над ним галузками, як ведмідь лабами. Звідси дивився на гори, близькі й далекі верхи, що голубіли на небі, на смерекові чорні ліси з їх синім диханням, на ясну зелень царинок, що, мов дзеркала, блищали в рамах дерев. Під ним, в долині, кипів холодний Черемош. По далеких горбах дрімали на сонці самотні оселі. Були так тихо і сумно, чорні смереки безперестанку спускали сум свій в Черемош, а він ніс його долом й оповідав. Вище, по безводних далеких недеях, нявки розводять свої безконечні танки, а по скелях ховається щезник.</div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit optio autem consequatur, ut nulla obcaecati modi officiis ad repellat provident quia neque dolore eveniet adipisci, ipsum, vel aspernatur numquam mollitia.</div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsam animi quibusdam eveniet ullam magnam incidunt voluptatum mollitia. Quis, omnis! Non maxime modi ut animi officiis. Adipisci necessitatibus molestiae a.</div>
+        </div>
+        
+      </div>
+      
+    </section>
     <script src="/JS/bootstrap-5.min.js">
-
     </script>
 </body>
 </html>

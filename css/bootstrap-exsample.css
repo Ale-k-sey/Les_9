@@ -1,9 +1,9 @@
 body{
     background-image: none;
-    background-color: gray;
+    background-color: white;
 }
 
-/* Button_____ */
+/* Button_____
 
 .button__exsample .btn-primary{
     color: black;
@@ -46,7 +46,7 @@ body{
 
 /* Range______ */
 
-.range__Example-range .form-label{
+/* .range__Example-range .form-label{
     font-size: 2rem;
     font-style: italic;
     font-weight: bold;
@@ -60,11 +60,11 @@ body{
     display: block;
     width: 50%;
     height: 2rem;   
-}
+} */
 
 /* Akkordion______ */
 
-.accordion{
+/* .accordion{
     width: 50%;
 }
 
@@ -87,11 +87,11 @@ body{
 
 .accordion-body{
     background-color: aqua;
-}
+} */
 
 /* Alert_____ */
 
-.alerts__link-color .alert-primary{
+/* .alerts__link-color .alert-primary{
     width: 70%;
 
     background-color: bisque;
@@ -118,11 +118,11 @@ body{
 
 .alerts__icons .alert-primary{
     justify-content: right;
-}
+} */
 
 /* Dropdown______ */
 
-.dropdown__single-button .btn-secondary{
+/* .dropdown__single-button .btn-secondary{
     position: static;
     display: block;
     margin: 0 auto;
@@ -141,10 +141,99 @@ body{
     font-weight: bold;
 }
 
-.btn-group {
-    width: 40%;
+.btn-group  button{
+    font-weight: bold;
+    font-style: italic;
+    color: var(--bs-dark);
+} */
+
+/* nav-tab____________________ */
+
+/* .nav-item .nav-link{
+    color: var(--bs-dark);
+    /* width: 60%; */
 }
 
-.btn-group .btn-danger{
-    width: 80%;
+.nav .nav-item{
+    width: 30%;
+} */ */
+
+
+/*Lesson 10 __________________ */
+
+
+.les-10 div{
+    color: white;    
+    border-radius: 5px;
+}
+
+.row__header,
+.row__nav,
+.row__article,
+.row__section,
+.row__aside,
+.row__footer{
+    color: var(--bs-white);
+}
+
+
+/* Accordion-sect______ */
+
+.accordion-sect{
+    background: #EDF1F4;
+    padding-bottom: 20px;
+}
+
+.accordion-item{
+    border-radius: 12px;
+    
+}
+
+.accordion-button{
+    border-radius: 12px;
+}
+
+.accordion-item:first-of-type .accordion-button{
+    border-top-left-radius: 12px;
+}
+
+
+.accordion-button:not(.collapsed){
+    background-color: #fff;
+    box-shadow: none;
+}
+
+/* Tab-section______ */
+
+.tab-section{
+    background: #EDF1F4;
+    padding-bottom: 20px;
+}
+
+.tab-section button{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.tab-section .nav-item{
+    margin-right: 33px;
+    background: #FFFFFF;
+    border-radius: 12px;    
+}
+
+.nav-item .nav-link{
+    color: #0B305D;
+    
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link{
+    background-color: #D8E5FD;
+    color: #0B305D;
+}
+
+.tab-pane-bc{
+    background-color: FFFFFF;
 }
